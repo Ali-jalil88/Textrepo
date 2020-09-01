@@ -1,0 +1,15 @@
+C:\Users\Ali Jalil\Desktop\Ali\src\main\java\com\text\model\Repository.java
+C:\Users\Ali Jalil\Desktop\Ali\src\main\java\com\text\exception\ServiceException.java
+C:\Users\Ali Jalil\Desktop\Ali\src\main\java\com\text\command\Command.java
+C:\Users\Ali Jalil\Desktop\Ali\src\main\java\com\text\entities\Text.java
+C:\Users\Ali Jalil\Desktop\Ali\src\main\java\com\text\entities\Entity.java
+C:\Users\Ali Jalil\Desktop\Ali\src\main\java\com\text\command\ReadText.java
+C:\Users\Ali Jalil\Desktop\Ali\src\main\java\com\text\controller\FrontController.java
+C:\Users\Ali Jalil\Desktop\Ali\src\main\java\com\text\service\impl\TextService.java
+C:\Users\Ali Jalil\Desktop\Ali\src\main\java\com\text\service\Service.java
+C:\Users\Ali Jalil\Desktop\Ali\src\main\java\com\text\model\ConnectionBuilder.java
+C:\Users\Ali Jalil\Desktop\Ali\src\main\java\com\text\command\CreateText.java
+C:\Users\Ali Jalil\Desktop\Ali\src\main\java\com\text\command\Page.java
+C:\Users\Ali Jalil\Desktop\Ali\src\main\java\com\text\model\impl\TextModel.java
+C:\Users\Ali Jalil\Desktop\Ali\src\main\java\com\text\command\CommandFactory.java
+C:\Users\Ali Jalil\Desktop\Ali\src\main\java\com\text\exception\DaoException.java

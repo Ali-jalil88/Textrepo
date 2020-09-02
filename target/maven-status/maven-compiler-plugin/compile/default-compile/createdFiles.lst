@@ -3,6 +3,7 @@ com\text\model\ConnectionBuilder.class
 com\text\service\Service.class
 com\text\entities\Entity.class
 com\text\entities\Text.class
+com\text\command\SelectedText.class
 com\text\command\Command.class
 com\text\command\Page.class
 com\text\command\ReadText.class

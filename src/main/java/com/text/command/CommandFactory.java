@@ -7,6 +7,8 @@ public class CommandFactory {
                 return new CreateText();
             case "command_read_text":
                 return new ReadText();
+            case "command_selected_text":
+                return new SelectedText();
             default:
                 return null;
         }

@@ -7,8 +7,9 @@ import com.text.model.Repository;
 import com.text.model.impl.TextModel;
 import com.text.service.Service;
 
+
 public class TextService implements Service<Text> {
-private final Repository<Text> repository = new TextModel();
+    private TextModel repository = new TextModel();
     @Override
     public void create(Text entity) throws ServiceException {
         try {
@@ -20,11 +21,22 @@ private final Repository<Text> repository = new TextModel();
     }
 
     @Override
-    public Text read(int id) throws ServiceException {
+    public Text read(int id) throws ServiceException, ServiceException {
         try {
-           return repository.select(id);
+            System.out.println("in dao");
+            System.out.println(id);
+            return repository.selectById(id);
         } catch (DaoException e) {
-            throw new ServiceException("text cant add");
+            throw new ServiceException("cant get text using id");
         }
+    }
+    public Text reading() throws ServiceException, ServiceException {
+        Text text = new Text();
+        try {
+            text = repository.selectAll();
+        } catch (DaoException e) {
+            throw new ServiceException("getting text back from DAO");
+        }
+        return text;
     }
 }

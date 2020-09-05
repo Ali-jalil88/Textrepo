@@ -1,4 +1,4 @@
-create table text(
+create table textTable(
 id bigserial primary key,
-numberLine varchar(1000)
+text varchar(1000)
 );

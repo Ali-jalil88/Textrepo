@@ -14,14 +14,24 @@
 <body>
 <form action="${pageContext.request.contextPath}/controller" method="post">
     <label>Text</label>
-    <TEXTAREA name="text" placeholder="Enter text" rows="7"></TEXTAREA>
-
+    <TEXTAREA name="text" placeholder="Enter text" rows="7">${sessionScope.text.fullText}</TEXTAREA>
+    <input type="hidden" value="${sessionScope.text.id}">
     <div class="navigator">
         <input type="hidden" name="command" value="command_create_text">
         <input type="submit" value="analyzing">
-    <a href="${pageContext.request.contextPath}/pages/text.jsp">next</a>
-
     </div>
 </form>
+<form action="${pageContext.request.contextPath}/controller" method="get">
+    <div>
+        <input type="hidden" name="command" value="next_command">
+        <button type="submit" value="nextBttn">Next</button>
+    </div>`
+</form>
+<form action="${pageContext.request.contextPath}/controller" method="get">
+    <input type="hidden" name="command" value="previous_command">
+    <button type="submit" value="previousBttn">Previous</button>
+</form>
+
 </body>
 </html>
+``
